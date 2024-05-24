@@ -1,0 +1,137 @@
+
+* {
+	text-align: center;
+	margin: 0px;
+}
+
+body {
+	background: #F4D03F;
+}
+
+#mash, #dot, #inicio p, #cuerpo p, table, a,
+#imagen_grupal, #imagen_grupal2, #imagen_grupal3, #imagen_4 {
+	position: relative;
+}
+
+table, table td {
+	border: 1px solid black;
+}
+
+img {
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;	
+}
+
+img:hover {
+	transform: scale(1.2);
+}
+
+#inicio h1 {
+	color: red;
+}
+
+h2 {
+	margin: 20px;
+}
+
+h3 {
+	margin: 30px;
+}
+
+#mash, #dot {
+	max-height: 200px;
+	border-radius: 50%;
+}
+
+#mash {
+	left: 30rem;
+	top: 5rem;
+}
+
+#dot {
+	left: 25rem;
+	top: 15rem;
+}
+
+#inicio p {
+	width: 30%;
+	left: 30rem;
+}
+
+#cuerpo p {
+	width: 25%;
+	left: 31rem;
+}
+
+#final table img {
+	max-height: 60px;
+}
+
+table {
+	border-collapse: collapse;
+	left: 25rem;
+	margin-top: 5rem;
+	margin-bottom: -20rem;
+}
+
+table td {
+	padding: 10px;
+}
+
+table td:hover {
+	background: red;
+	color: white;
+}
+
+table tr th {
+	background: red;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	bottom: 1rem;
+	margin: 20px;
+}
+
+a:hover {
+	color: white;
+}
+
+#final h2 {
+	margin: 50px;
+	font-size: 30px;
+}
+
+#final img {
+	border-radius: 2rem;	
+}
+
+#imagen_grupal {
+	right: 6rem;
+	bottom: 130rem;
+	max-height: 30rem;
+}
+
+#imagen_grupal2 {
+	left: 30rem;
+	bottom: 90rem;
+}
+
+#imagen_grupal3 {
+	right: 35rem;
+	bottom: 50rem;
+}
+
+#imagen_4 {
+	right: 12rem;
+	bottom: 11rem;
+	max-height: 15rem;
+}
+
+footer p {
+	font-size: 25px;
+	background: red;
+	padding: 20px;
+	color: white;
+}
