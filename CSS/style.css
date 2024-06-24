@@ -8,6 +8,12 @@ body {
 	background: #F4D03F;
 }
 
+audio {
+	position: relative;
+	right: 40%;
+	margin-bottom: 30px;
+}
+
 #mash, #dot, #inicio p, #cuerpo p, table, a,
 #imagen_grupal, #imagen_grupal2, #imagen_grupal3, #imagen_4 {
 	position: relative;
