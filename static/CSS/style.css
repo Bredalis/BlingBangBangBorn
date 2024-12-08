@@ -25,7 +25,7 @@ audio {
 }
 
 #mash, #dot, #inicio p, #cuerpo p, table, a,
-#imagen_grupal, #imagen_grupal2, #imagen_grupal3, #imagen_4 {
+#imagen-grupal, #imagen-grupal2, #imagen-grupal3, #imagen-4 {
 	position: relative;
 }
 
@@ -34,7 +34,7 @@ table, table td {
 }
 
 img {
-    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;	
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
 }
 
 img:hover {
@@ -126,26 +126,26 @@ a:hover {
 }
 
 #final img {
-	border-radius: 2rem;	
+	border-radius: 2rem;
 }
 
-#imagen_grupal {
+#imagen-grupal {
 	right: 6rem;
 	bottom: 130rem;
 	max-height: 30rem;
 }
 
-#imagen_grupal2 {
+#imagen-grupal2 {
 	left: 30rem;
 	bottom: 90rem;
 }
 
-#imagen_grupal3 {
+#imagen-grupal3 {
 	right: 35rem;
 	bottom: 50rem;
 }
 
-#imagen_4 {
+#imagen-4 {
 	right: 12rem;
 	bottom: 11rem;
 	max-height: 15rem;
